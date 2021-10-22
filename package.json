@@ -1,0 +1,24 @@
+{
+  "name": "@leismore/shorterid-cli",
+  "version": "1.0.0",
+  "description": "Leismore ShorterID Generator (CLI) is a command-line tool for generating new Leismore ShorterIDs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/shorterid-cli.git"
+  },
+  "keywords": [
+    "Leismore",
+    "ShorterID",
+    "CLI"
+  ],
+  "author": "Kyle Chine",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/leismore/shorterid-cli/issues"
+  },
+  "homepage": "https://github.com/leismore/shorterid-cli#readme"
+}
