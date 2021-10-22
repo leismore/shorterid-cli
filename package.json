@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Leismore ShorterID Generator (CLI) is a command-line tool for generating new Leismore ShorterIDs.",
   "main": "index.js",
+  "bin":{
+    "shorterid": "./index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
