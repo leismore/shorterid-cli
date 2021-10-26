@@ -16,3 +16,7 @@ Leismore ShorterID Generator (CLI) is a command-line tool for generating new Lei
 
 * [Nano ID](https://github.com/ai/nanoid)
 * [Leismore Shorter ID Specification](https://github.com/leismore/shorterid-spec)
+
+## Authors
+
+* [Kyle Chine](https://www.kylechine.name) since 22 October 2021
