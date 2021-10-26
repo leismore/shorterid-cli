@@ -1,14 +1,15 @@
 {
   "name": "@leismore/shorterid-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Leismore ShorterID Generator (CLI) is a command-line tool for generating new Leismore ShorterIDs.",
-  "main": "index.js",
-  "bin":{
-    "shorterid": "./index.js"
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "shorterid": "./dist/index.js"
   },
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/test.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,16 @@
   },
   "homepage": "https://github.com/leismore/shorterid-cli#readme",
   "dependencies": {
+    "@leismore/insert_separator": "^1.0.1",
     "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.6",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   }
 }
